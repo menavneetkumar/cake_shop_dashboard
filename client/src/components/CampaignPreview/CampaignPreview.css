@@ -1,0 +1,78 @@
+.content-container {
+  background-color: #fff;
+  border: 1px solid #dae6ff;
+  border-radius: 10px;
+  padding: 24px 32px;
+  margin-top: 48px;
+}
+
+.step-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.step-title h4 {
+  font-weight: 700;
+}
+
+.step-title span {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.campaign-cards-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.campaign-card {
+  background-color: #fff;
+  border: 1.5px solid #f5f5f5;
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  color: #2b23a5;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  color: #767676;
+  font-size: 8px;
+}
+
+.card-content {
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #000;
+  font-weight: 400;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.cta-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.campaign-cards-wrapper .active-item {
+  border: 1.5px solid #0f6eff;
+  position: relative;
+}

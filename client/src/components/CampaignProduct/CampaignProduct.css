@@ -1,0 +1,71 @@
+.content-container {
+  background-color: #fff;
+  border: 1px solid #dae6ff;
+  border-radius: 10px;
+  padding: 24px 32px;
+  margin-top: 48px;
+}
+
+.step-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.step-title h4 {
+  font-weight: 700;
+}
+
+.step-title span {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.grid-item {
+  padding: 20px;
+  background-color: #fff;
+  border: 1.5px solid #f3f3f3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.grid-item .item-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.grid-item-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+.grid-item-subtitle {
+  font-size: 13px;
+  color: rgba(11, 26, 51, 0.5);
+}
+
+.content-container .active-item {
+  border: 1.5px solid #0f6eff;
+  position: relative;
+}
+
+.content-container .active-item .grid-item-title {
+  font-weight: 500;
+}
+
+.content-container .active-item .tickCircleFilled {
+  display: block;
+}

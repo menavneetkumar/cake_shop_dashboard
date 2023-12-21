@@ -1,0 +1,100 @@
+table {
+  margin-top: 24px;
+  width: 100%;
+}
+
+thead {
+  background-color: #f8f8f8;
+  border: 1.5px solid #eaeaea;
+}
+
+th {
+  padding: 16px 12px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+tbody tr td {
+  padding: 16px 12px;
+  text-align: left;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.table-row:not(:last-child) {
+  border-bottom: 1.5px solid #eaeaea;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.campaign-Paused {
+  color: #d1a307;
+  background-color: #fff8e0;
+  border-radius: 24px;
+  padding: 6px 22px;
+}
+
+.campaign-Live-now {
+  color: #317c2e;
+  background-color: #e1ffe0;
+  border-radius: 24px;
+  padding: 6px 22px;
+}
+
+.campaign-Exhausted {
+  color: #fc3f3f;
+  background-color: #ffdede;
+  border-radius: 24px;
+  padding: 6px 22px;
+}
+
+td:has(.campaign-Facebook),
+td:has(.campaign-Youtube),
+td:has(.campaign-Google),
+td:has(.campaign-Instagram) {
+  position: relative;
+}
+
+.campaign-Facebook::after {
+  content: url('../../../public/assets/icons/facebook.svg');
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.campaign-Youtube::after {
+  content: url('../../../public/assets/icons/youtube.svg');
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.campaign-Google::after {
+  content: url('../../../public/assets/icons/google.svg');
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.campaign-Instagram::after {
+  content: url('../../../public/assets/icons/instagram.svg');
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

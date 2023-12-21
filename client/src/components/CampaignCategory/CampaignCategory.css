@@ -1,0 +1,77 @@
+.campaign-category-container {
+  background-color: #fff;
+  border: 1px solid #dae6ff;
+  border-radius: 10px;
+  padding: 24px 32px;
+  margin-top: 48px;
+}
+
+.campaign-category-container .step-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.campaign-category-container .step-title h4 {
+  font-weight: 700;
+}
+
+.campaign-category-container .step-title span {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.campaign-category-container .content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.campaign-category-container .grid-item {
+  padding: 20px;
+  background-color: #fff;
+  border: 1.5px solid #f3f3f3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.campaign-category-container .grid-item .item-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.tickCircleFilled {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: none;
+}
+
+.campaign-category-container .grid-item-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.campaign-category-container .grid-item-subtitle {
+  font-size: 13px;
+  color: rgba(11, 26, 51, 0.5);
+}
+
+.campaign-category-container .active-item {
+  border: 1.5px solid #0f6eff;
+  position: relative;
+}
+
+.campaign-category-container .active-item .grid-item-title {
+  font-weight: 500;
+}
+
+.campaign-category-container .active-item .tickCircleFilled {
+  display: block;
+}

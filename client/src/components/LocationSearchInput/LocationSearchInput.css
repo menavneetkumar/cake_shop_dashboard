@@ -1,0 +1,10 @@
+.location-suggestion {
+  list-style: none;
+  cursor: pointer;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.location-suggestion:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}

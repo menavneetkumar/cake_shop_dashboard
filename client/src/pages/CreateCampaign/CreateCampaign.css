@@ -1,0 +1,20 @@
+.create-campaign-page {
+  padding: 40px 50px;
+  position: relative;
+  top: 72px;
+  left: 82px;
+  width: calc(100vw - 96px);
+}
+
+.page-header {
+  padding-left: 54px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  color: rgba(0, 0, 0, 0.5);
+}
