@@ -28,7 +28,7 @@ mongoose
   .then(() => {
     app.listen(process.env.PORT || 3000 , () => {
       console.log('database connected');
-      console.log('Listening on port 4000...');
+      console.log('Listening on port 5000...');
     });
   })
   .catch((err) => {

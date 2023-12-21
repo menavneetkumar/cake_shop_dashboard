@@ -9,6 +9,8 @@ import CampaignPreview from '../../components/CampaignPreview/CampaignPreview';
 import { useToast } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 
+
+
 const CreateCampaign = () => {
   const toast = useToast();
   const [platform, setPlatform] = useState('');
@@ -104,7 +106,7 @@ const CreateCampaign = () => {
 
     console.log('campaign', campaign);
 
-    const response = await fetch('http://localhost:3000/api/campaigns/', {
+    const response = await fetch('http://localhost:5000/api/campaigns/', {
       method: 'POST',
       body: JSON.stringify(campaign),
       headers: {
