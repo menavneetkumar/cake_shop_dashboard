@@ -128,3 +128,50 @@ label {
   border-radius: 48px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    padding: 16px; 
+    margin-top: 24px; 
+  }
+
+  .budget-setting::after {
+    left: 6.5px; 
+  }
+
+  .budget-setting,
+  .location-setting {
+    margin-bottom: 24px;
+  }
+
+  .budget-setting-content,
+  .location-setting-content {
+    padding: 0; 
+  }
+
+  .step-title {
+    flex-direction: column; 
+    gap: 12px;
+  }
+
+  .setting-title {
+    margin-bottom: 16px; 
+  }
+
+  .date-range,
+  .budget-timeline,
+  .location-type {
+    gap: 12px; 
+  }
+
+  .budget-timeline-tabs,
+  .location-type-tabs {
+    width: 100%; 
+    max-width: 250px; 
+  }
+
+  .budget-timeline-tab,
+  .location-info-tab {
+    padding: 12px;
+  }
+}

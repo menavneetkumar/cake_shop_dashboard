@@ -37,3 +37,16 @@
 .sidebar-links div:hover {
   background-color: rgba(25, 119, 243, 0.1);
 }
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 10%; 
+    gap: 20px; 
+    padding: 20px 0; 
+  }
+
+  .sidebar-links div {
+    padding: 10px 0; 
+  }
+}

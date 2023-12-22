@@ -76,3 +76,20 @@
   border: 1.5px solid #0f6eff;
   position: relative;
 }
+
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    padding: 16px; 
+    margin-top: 60px; 
+  }
+
+  .campaign-cards-wrapper {
+    flex-direction: column; 
+  }
+
+  .campaign-card {
+    flex: none; 
+    width: 100%;
+  }
+}

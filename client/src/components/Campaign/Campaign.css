@@ -38,3 +38,19 @@
   align-items: center;
   margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .campaign {
+    padding: 63px;
+    top: 19px;
+    left: -9px;
+    width: 111%;
+}
+  
+
+  .create-campaign-btn {
+    padding: 10px 15px; 
+    width: auto;
+  }
+}

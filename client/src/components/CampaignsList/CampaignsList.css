@@ -71,3 +71,16 @@
 label {
   color: rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 768px) {
+  .campaigns-list {
+    padding: 15px; 
+    height: 622px;
+  }
+
+  .search-box {
+    max-width: 78%; /* Adjust the search box width to fill the container on smaller screens */
+  }
+
+
+}

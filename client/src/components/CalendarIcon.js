@@ -1,5 +1,6 @@
 export const CalendarIcon = () => {
   return (
+    <div className="svg-container">
     <svg
       width='24'
       height='24'
@@ -16,5 +17,6 @@ export const CalendarIcon = () => {
         fill='black'
       />
     </svg>
+    </div>
   );
 };

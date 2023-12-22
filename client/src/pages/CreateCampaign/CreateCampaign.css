@@ -18,3 +18,24 @@
 .page-subtitle {
   color: rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 768px) {
+  .create-campaign-page {
+    padding: 20px; /* Adjust overall padding for smaller screens */
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .page-header {
+    padding-left: 20px;
+    margin-top: 2%;
+    }
+
+  .page-title {
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+  .page-subtitle label{
+    display: block
+;  }
+}

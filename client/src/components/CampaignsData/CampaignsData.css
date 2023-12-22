@@ -98,3 +98,48 @@ td:has(.campaign-Instagram) {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+@media screen and (max-width: 768px) {
+  th,
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  th {
+    text-align: center;
+  }
+
+  tbody tr td {
+    text-align: center;
+  }
+
+  .action-icons {
+    justify-content: center;
+  }
+
+  .campaign-Paused,
+  .campaign-Live-now,
+  .campaign-Exhausted {
+    width: 100%;
+    text-align: center;
+  }
+  
+  td:has(.campaign-Facebook),
+  td:has(.campaign-Youtube),
+  td:has(.campaign-Google),
+  td:has(.campaign-Instagram) {
+    position: relative;
+    text-align: center;
+  }
+
+  .campaign-Facebook::after,
+  .campaign-Youtube::after,
+  .campaign-Google::after,
+  .campaign-Instagram::after {
+    top: 20px;
+    justify-content: center;
+  }
+}

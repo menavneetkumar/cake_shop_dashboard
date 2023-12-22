@@ -7,10 +7,13 @@ const Sidebar = () => {
     <div className='sidebar'>
       <img src='assets/icons/logo.svg' className='logo' alt='logo' />
       <div className='sidebar-links'>
+      <Link to='/'>
         <div>
           <img src='assets/icons/home.svg' alt='home' />
           <p className='sidebar-link-label'>Home</p>
         </div>
+        </Link>
+
 
         <Link to='/'>
           <div className='campaign-link'>

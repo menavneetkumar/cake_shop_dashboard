@@ -153,7 +153,7 @@ const CreateCampaign = () => {
         submitBtnName={'Start campaign'}
         steps={[
           {
-            label: 'What you want to do',
+            label: 'What you want',
             name: 'step 1',
             content: step1Content,
             validator: () => step1Validator(curPlatform.current),

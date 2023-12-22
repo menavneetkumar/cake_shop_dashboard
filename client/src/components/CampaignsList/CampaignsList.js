@@ -77,8 +77,9 @@ const CampaignsList = () => {
             />
             <select name='date-range' id='date-range' className='filter'>
               <option value='Last 30 days' defaultValue>
-                Last 30 days
+                Last 7 days
               </option>
+              <option value='Last 3 months'>Last 1 month</option>
               <option value='Last 3 months'>Last 3 months</option>
               <option value='Last 6 months'>Last 6 months</option>
               <option value='Last 1 year'>Last 1 year</option>

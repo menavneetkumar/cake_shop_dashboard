@@ -1,24 +1,27 @@
 .navbar {
-  background-color: #fff;
+  background-color: #e90787;
   height: 72px;
   width: 100%;
   border-bottom: 1px solid rgba(218, 230, 255, 1);
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
   gap: 20px;
   padding: 0 48px;
   position: fixed;
   z-index: 999;
 }
-
-.free-trial {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.navbar h1{
+  color: #fff;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-.free-trial p {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 24px; 
+  }
+
+  .navbar h1 {
+    font-size: 45px; 
+  }
 }
+
