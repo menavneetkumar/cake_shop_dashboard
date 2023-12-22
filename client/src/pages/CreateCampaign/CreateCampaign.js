@@ -106,7 +106,7 @@ const CreateCampaign = () => {
 
     console.log('campaign', campaign);
 
-    const response = await fetch('http://localhost:5000/api/campaigns/', {
+    const response = await fetch('https://cake-shop-k7ml.onrender.com/api/campaigns/', {
       method: 'POST',
       body: JSON.stringify(campaign),
       headers: {

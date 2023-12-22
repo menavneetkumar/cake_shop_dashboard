@@ -18,7 +18,7 @@ const CampaignsData = ({ platformOption, statusOption, searchTerm }) => {
 
   useEffect(() => {
     const getCampaigns = async () => {
-      const response = await fetch('http://localhost:5000/api/campaigns/');
+      const response = await fetch('https://cake-shop-k7ml.onrender.com/api/campaigns/');
       const data = await response.json();
 
       const filteredData = data.filter(
@@ -59,7 +59,7 @@ const CampaignsData = ({ platformOption, statusOption, searchTerm }) => {
 
   useEffect(() => {
     const getCampaigns = async () => {
-      const response = await fetch('http://localhost:5000/api/campaigns/');
+      const response = await fetch('https://cake-shop-k7ml.onrender.com/api/campaigns/');
       const data = await response.json();
 
       const searchResults = data.filter((campaign) =>
@@ -74,7 +74,7 @@ const CampaignsData = ({ platformOption, statusOption, searchTerm }) => {
   }, [dispatch,searchTerm]);
 
   const handleDelete = async (id) => {
-    const response = await fetch(`http://localhost:5000/api/campaigns/${id}`, {
+    const response = await fetch(`https://cake-shop-k7ml.onrender.com/api/campaigns/${id}`, {
       method: 'DELETE',
     });
     const data = await response.json();
@@ -97,7 +97,7 @@ const CampaignsData = ({ platformOption, statusOption, searchTerm }) => {
 
   useEffect(() => {
     const updateCampaignStatus = async () => {
-      const response = await fetch(`http://localhost:5000/api/campaigns/${updateId}`, {
+      const response = await fetch(`https://cake-shop-k7ml.onrender.com/api/campaigns/${updateId}`, {
         method: 'PATCH',
         body: JSON.stringify({
           active: !updateItem?.active,
